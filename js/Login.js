@@ -1,4 +1,4 @@
-import {initializeApp} from 'https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js';
 import {
   getDatabase, ref, child, get,
 } from 'https://www.gstatic.com/firebasejs/9.8.2/firebase-database.js';
@@ -7,8 +7,8 @@ import firebaseConfig from './apikey.js';
 const app = initializeApp(firebaseConfig);
 const db = getDatabase();
 
-// --------------------------------------LOGIN PATH---------------------------------------------------------//
-// --------------------------------------THE REFRENECES---------------------------------------------------------//
+// --------------------LOGIN PATH------------------------------------//
+// -------------THE REFRENECES----------------------------------//
 const name = document.getElementById('FullName');
 const password = document.getElementById('Password1');
 const submit = document.getElementById('Submit');

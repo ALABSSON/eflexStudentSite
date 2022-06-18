@@ -7,7 +7,7 @@
 .main {
   width: 100%;
   height: 100vh;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   display: flex;
 }
 
@@ -29,6 +29,7 @@
 .leftNav2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .profile {
@@ -41,6 +42,12 @@
   background-position: center;
 }
 
+#NameShow {
+  text-align: center;
+  font-size: 18px;
+  color: snow;
+}
+
 .leftNav3 {
   display: flex;
   flex-direction: column;
@@ -51,7 +58,7 @@
   padding: 7px 35px;
   cursor: pointer;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(5, 5, 52);
   background-color: white;
   border: none;
@@ -82,12 +89,20 @@
   padding: 20px;
 }
 
+.navRows h4 {
+  width: 30px;
+}
+
+.navRows p {
+  width: 150px;
+}
+
 .navRows button {
   padding: 13px 35px;
   background-color: rgb(5, 5, 52);
   cursor: pointer;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
   border: none;
 }
@@ -111,7 +126,7 @@
 }
 
 .LastRow input::placeholder {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 15px;
   color: rgba(105, 104, 104, 0.297);
 }
@@ -122,6 +137,6 @@
   border: none;
   cursor: pointer;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: white;
 }
